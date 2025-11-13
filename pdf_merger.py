@@ -10,5 +10,7 @@ def pdf_merger(pdf_list):
         merger.append(pdf)
     merger.write('merged.pdf')
 
+print('testing branching')
+
 
 pdf_merger(inputs)
